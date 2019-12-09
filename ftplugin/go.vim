@@ -1,1 +1,1 @@
-hi Comment ctermfg=LightBlue
+highlight Comment ctermfg=Cyan
