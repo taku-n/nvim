@@ -4,15 +4,15 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=/home/taku/.config/nvim/dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=/home/taku/.cache/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state('/home/taku/.config/nvim/dein')
-  call dein#begin('/home/taku/.config/nvim/dein')
+if dein#load_state('/home/taku/.cache/dein')
+  call dein#begin('/home/taku/.cache/dein')
 
   " Let dein manage dein
   " Required:
-  call dein#add('/home/taku/.config/nvim/dein/repos/github.com/Shougo/dein.vim')
+  call dein#add('/home/taku/.cache/dein/repos/github.com/Shougo/dein.vim')
 
   " Add or remove your plugins here like this:
   "call dein#add('Shougo/neosnippet.vim')
