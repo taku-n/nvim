@@ -41,3 +41,8 @@ highlight ColorColumn ctermbg=Blue
 
 " This line does not work.
 highlight Comment ctermfg=Cyan
+
+augroup extension
+  autocmd!
+  autocmd BufNewFile,BufRead *.hy setfiletype hy  " ~/.config/nvim/ftplugin/hy.vim
+augroup end
