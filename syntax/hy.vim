@@ -1,4 +1,4 @@
-syntax keyword key &rest as-> defn defmacro do except setv try
+syntax keyword key &rest as-> defn defmacro do except import require setv try
 
 highlight link key Constant
 
