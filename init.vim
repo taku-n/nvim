@@ -36,6 +36,9 @@ syntax enable
 
 set number
 
+" To complement kebab-case
+set isk+=-
+
 set colorcolumn=101
 highlight ColorColumn ctermbg=Blue
 
